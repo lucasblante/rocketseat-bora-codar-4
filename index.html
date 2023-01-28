@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+  <body class="bg-[#1A1924] text-[#E1E1E6] flex-col">
+
+    <!-- Header with user picture, name, status, clone button and initial messages hour -->
+    <header
+      class="fixed text-center flex-col text-white min-w-[400px] max-w-[800px] w-full h-20 top-4 left-1/2 -translate-x-1/2 p-6"
+    >
+
+      <!-- Picture, name, status and close button -->
+      <div class="flex justify-between items-center mb-6">
+        
+        <div class="flex">
+          
+          <!-- User Picture -->
+          <img
+            src="https://www.github.com/lucasblante.png"
+            alt=""
+            class="h-[50px] w-[50px] rounded-full"
+          />
+
+          <div class="flex-col ml-4">
+          
+            <!-- User name -->
+            <span class="text-lg font-bold">Lucas Blante</span>
+            
+            <!-- Status -->
+            <div class="flex text-[#00B37E] items-center gap-2">
+              <i class="ph-circle-fill text-[10px]"></i>
+              <p class="text-sm">Online</p>
+            </div>
+          
+          </div>
+
+        </div>
+        
+        <!-- Close button  -->
+        <i class="ph-x-fill text-xl""></i>
+     
+      </div>
+
+
+      <!-- Initial message hour -->
+      <span class="text-sm">Hoje 12:00</span>
+    </header>
+
+    <section class="absolute overflow-auto flex-row top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-full h-3/5 min-w-[400px] max-w-[800px] p-6">
+        <div class="flex-col mt-10">
+          <p class="mb-3">Debora - 12:30</p>
+          <p class="bg-[#633bbc] p-3 rounded-t-lg rounded-br-lg max-w-[400px] ">E se a gente fizesse um chat moderno e responsivo em apenas uma semana?</p>
+        </div>
+
+      <div class="flex-col content mt-10">
+        <p class="mb-3">Você - 12:30</p>
+        <p class="bg-[#07847e] p-3 rounded-t-lg rounded-bl-lg max-w-[400px]">#boraCodar! 🚀</p>
+      </div>
+
+      <div class="flex-col mt-10">
+        <p class="mb-3">Debora - 12:30</p>
+        <p class="bg-[#633bbc] p-3 rounded-t-lg rounded-br-lg max-w-[400px] ">E se a gente fizesse um chat moderno e responsivo em apenas uma semana?</p>
+      </div>
+
+    <div class="flex-col content mt-10">
+      <p class="mb-3">Você - 12:30</p>
+      <p class="bg-[#07847e] p-3 rounded-t-lg rounded-bl-lg max-w-[400px]">#boraCodar! 🚀</p>
+    </div>
+
+    </section>
+
+    <footer
+      class="fixed w-full text-white bottom-0 text-sm p-6"
+    >
+      <div class="relative flex items-center justify-center bg-[#282843] max-w-[800px] min-w-[400px] w-full bottom-4 p-4 rounded-full h-12 left-1/2 -translate-x-1/2">
+        <p class="min-w-[300px] max-w-[600px] w-full">Digite sua mensagem</p>
+        <i class="ph-paper-plane-right-fill text-2xl"></i>
+      </div>
+    </footer>
+  </body>
+</html>
